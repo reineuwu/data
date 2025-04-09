@@ -1,0 +1,28 @@
+{
+  "name": "image-resizer",
+  "version": "1.0.0",
+  "description": "A Node.js tool to resize images to a common resolution while maintaining aspect ratio",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "image",
+    "resize",
+    "sharp",
+    "aspect-ratio"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.32.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "@types/sharp": "^0.31.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
